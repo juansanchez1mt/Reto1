@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:background="@color/purple_700"
+        >
+        <!--android:layout_marginTop="30dp" -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/adorno1"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/pelota"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NombreProducto1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pelota de Navidad" />
+
+                <TextView
+                    android:id="@+id/PrecioProducto1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$65.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="Añadir" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/adorno2"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/papa"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NombreProducto2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Papa Noel" />
+
+                <TextView
+                    android:id="@+id/PrecioProducto2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$90.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar2"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="Añadir" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:layout_marginTop="1dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/adorno3"
+                android:layout_width="1dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/girnalda" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/NombreProducto3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Girnalda" />
+
+                <TextView
+                    android:id="@+id/PrecioProducto3"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="$50.000" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnComprar3"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="Añadir" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
